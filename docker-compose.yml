@@ -12,4 +12,4 @@ services:
       - ./:/app
     environment:
       - NUXT_TELEMETRY_DISABLED=1
-    command: yarn dev
+#    command: yarn dev

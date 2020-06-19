@@ -1,5 +1,5 @@
-import { Configuration } from '@nuxt/types'
-import colors from 'vuetify/es5/util/colors'
+import { Configuration } from '@nuxt/types';
+import colors from 'vuetify/es5/util/colors';
 
 const nuxtConfig: Configuration = {
   /*
@@ -72,6 +72,6 @@ const nuxtConfig: Configuration = {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
-}
+};
 
-export default nuxtConfig
+export default nuxtConfig;
