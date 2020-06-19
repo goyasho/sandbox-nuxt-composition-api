@@ -10,6 +10,9 @@ services:
     tty: true
     volumes:
       - ./:/app
+      - yarn-cache:/usr/local/share/.cache/yarn/v6
     environment:
       - NUXT_TELEMETRY_DISABLED=1
 #    command: yarn dev
+volumes:
+  yarn-cache:
