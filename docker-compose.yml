@@ -10,4 +10,4 @@ services:
     tty: true
     volumes:
       - ./:/app
-#    command: yarn local
+    command: yarn dev
